@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54183224255B0A10009BE2A1 /* xrp_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 54183221255B0A10009BE2A1 /* xrp_logo.png */; };
+		54183225255B0A10009BE2A1 /* 1200px-Ethereum-icon-purple.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 54183222255B0A10009BE2A1 /* 1200px-Ethereum-icon-purple.svg.png */; };
+		54183226255B0A10009BE2A1 /* bitcoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 54183223255B0A10009BE2A1 /* bitcoin.png */; };
+		541FB977255AAF2C0003372D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541FB976255AAF2C0003372D /* AppDelegate.swift */; };
+		541FB979255AAF2C0003372D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541FB978255AAF2C0003372D /* SceneDelegate.swift */; };
+		541FB97E255AAF2C0003372D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541FB97C255AAF2C0003372D /* Main.storyboard */; };
+		541FB980255AAF2D0003372D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541FB97F255AAF2D0003372D /* Assets.xcassets */; };
+		541FB983255AAF2D0003372D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541FB981255AAF2D0003372D /* LaunchScreen.storyboard */; };
+		541FB98E255AB0200003372D /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541FB98D255AB0200003372D /* Quote.swift */; };
+		541FB991255AB0CB0003372D /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541FB990255AB0CB0003372D /* QuoteProvider.swift */; };
+		541FB993255AB1010003372D /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541FB992255AB1010003372D /* Converter.swift */; };
+		541FB995255AB9B50003372D /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541FB994255AB9B50003372D /* QuoteCell.swift */; };
+		541FB997255ABA0A0003372D /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541FB996255ABA0A0003372D /* QuoteViewController.swift */; };
+		545C1FBA263FAF07001A75FE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 545C1FB9263FAF07001A75FE /* .gitignore */; };
+		5466425B255EE2B70001AAEB /* QuoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466425A255EE2B70001AAEB /* QuoteDetailViewController.swift */; };
+		54965724255C4B9C00F91B84 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54965723255C4B9C00F91B84 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54183221255B0A10009BE2A1 /* xrp_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xrp_logo.png; path = ../../../../../Downloads/xrp_logo.png; sourceTree = "<group>"; };
+		54183222255B0A10009BE2A1 /* 1200px-Ethereum-icon-purple.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1200px-Ethereum-icon-purple.svg.png"; path = "../../../../../Downloads/1200px-Ethereum-icon-purple.svg.png"; sourceTree = "<group>"; };
+		54183223255B0A10009BE2A1 /* bitcoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bitcoin.png; path = ../../../../../Downloads/bitcoin.png; sourceTree = "<group>"; };
+		541FB973255AAF2C0003372D /* quotes-mvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quotes-mvc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		541FB976255AAF2C0003372D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		541FB978255AAF2C0003372D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		541FB97D255AAF2C0003372D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		541FB97F255AAF2D0003372D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		541FB982255AAF2D0003372D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		541FB984255AAF2D0003372D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541FB98D255AB0200003372D /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		541FB990255AB0CB0003372D /* QuoteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteProvider.swift; sourceTree = "<group>"; };
+		541FB992255AB1010003372D /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		541FB994255AB9B50003372D /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
+		541FB996255ABA0A0003372D /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		545C1FB9263FAF07001A75FE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5466425A255EE2B70001AAEB /* QuoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailViewController.swift; sourceTree = "<group>"; };
+		54965723255C4B9C00F91B84 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541FB970255AAF2B0003372D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541FB96A255AAF2B0003372D = {
+			isa = PBXGroup;
+			children = (
+				541FB975255AAF2C0003372D /* quotes-mvc */,
+				541FB974255AAF2C0003372D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541FB974255AAF2C0003372D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541FB973255AAF2C0003372D /* quotes-mvc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541FB975255AAF2C0003372D /* quotes-mvc */ = {
+			isa = PBXGroup;
+			children = (
+				545C1FB9263FAF07001A75FE /* .gitignore */,
+				541FB98F255AB0BC0003372D /* Provider */,
+				541FB98C255AAF920003372D /* Controller */,
+				541FB98B255AAF8B0003372D /* View */,
+				541FB98A255AAF800003372D /* Model */,
+				541FB976255AAF2C0003372D /* AppDelegate.swift */,
+				541FB978255AAF2C0003372D /* SceneDelegate.swift */,
+				54183222255B0A10009BE2A1 /* 1200px-Ethereum-icon-purple.svg.png */,
+				54183223255B0A10009BE2A1 /* bitcoin.png */,
+				54183221255B0A10009BE2A1 /* xrp_logo.png */,
+				541FB97F255AAF2D0003372D /* Assets.xcassets */,
+				541FB984255AAF2D0003372D /* Info.plist */,
+			);
+			path = "quotes-mvc";
+			sourceTree = "<group>";
+		};
+		541FB98A255AAF800003372D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				541FB98D255AB0200003372D /* Quote.swift */,
+				541FB992255AB1010003372D /* Converter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		541FB98B255AAF8B0003372D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				541FB97C255AAF2C0003372D /* Main.storyboard */,
+				541FB981255AAF2D0003372D /* LaunchScreen.storyboard */,
+				541FB994255AB9B50003372D /* QuoteCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		541FB98C255AAF920003372D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				541FB996255ABA0A0003372D /* QuoteViewController.swift */,
+				54965723255C4B9C00F91B84 /* MainViewController.swift */,
+				5466425A255EE2B70001AAEB /* QuoteDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		541FB98F255AB0BC0003372D /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				541FB990255AB0CB0003372D /* QuoteProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541FB972255AAF2B0003372D /* quotes-mvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541FB987255AAF2D0003372D /* Build configuration list for PBXNativeTarget "quotes-mvc" */;
+			buildPhases = (
+				541FB96F255AAF2B0003372D /* Sources */,
+				541FB970255AAF2B0003372D /* Frameworks */,
+				541FB971255AAF2B0003372D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "quotes-mvc";
+			productName = "quotes-mvc";
+			productReference = 541FB973255AAF2C0003372D /* quotes-mvc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541FB96B255AAF2B0003372D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Бейбарыс Шагай";
+				TargetAttributes = {
+					541FB972255AAF2B0003372D = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 541FB96E255AAF2B0003372D /* Build configuration list for PBXProject "quotes-mvc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541FB96A255AAF2B0003372D;
+			productRefGroup = 541FB974255AAF2C0003372D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541FB972255AAF2B0003372D /* quotes-mvc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541FB971255AAF2B0003372D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54183226255B0A10009BE2A1 /* bitcoin.png in Resources */,
+				545C1FBA263FAF07001A75FE /* .gitignore in Resources */,
+				541FB983255AAF2D0003372D /* LaunchScreen.storyboard in Resources */,
+				54183224255B0A10009BE2A1 /* xrp_logo.png in Resources */,
+				541FB980255AAF2D0003372D /* Assets.xcassets in Resources */,
+				54183225255B0A10009BE2A1 /* 1200px-Ethereum-icon-purple.svg.png in Resources */,
+				541FB97E255AAF2C0003372D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541FB96F255AAF2B0003372D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5466425B255EE2B70001AAEB /* QuoteDetailViewController.swift in Sources */,
+				541FB995255AB9B50003372D /* QuoteCell.swift in Sources */,
+				541FB98E255AB0200003372D /* Quote.swift in Sources */,
+				541FB977255AAF2C0003372D /* AppDelegate.swift in Sources */,
+				541FB979255AAF2C0003372D /* SceneDelegate.swift in Sources */,
+				541FB993255AB1010003372D /* Converter.swift in Sources */,
+				541FB997255ABA0A0003372D /* QuoteViewController.swift in Sources */,
+				541FB991255AB0CB0003372D /* QuoteProvider.swift in Sources */,
+				54965724255C4B9C00F91B84 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		541FB97C255AAF2C0003372D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541FB97D255AAF2C0003372D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		541FB981255AAF2D0003372D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541FB982255AAF2D0003372D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		541FB985255AAF2D0003372D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		541FB986255AAF2D0003372D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541FB988255AAF2D0003372D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2HRKMFNN5;
+				INFOPLIST_FILE = "quotes-mvc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wordnik.api.quotes-mvc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541FB989255AAF2D0003372D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2HRKMFNN5;
+				INFOPLIST_FILE = "quotes-mvc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wordnik.api.quotes-mvc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541FB96E255AAF2B0003372D /* Build configuration list for PBXProject "quotes-mvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541FB985255AAF2D0003372D /* Debug */,
+				541FB986255AAF2D0003372D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541FB987255AAF2D0003372D /* Build configuration list for PBXNativeTarget "quotes-mvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541FB988255AAF2D0003372D /* Debug */,
+				541FB989255AAF2D0003372D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541FB96B255AAF2B0003372D /* Project object */;
+}
